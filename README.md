@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/avirajwalunj/order-summary-component)
-- Live Site URL: [Add live site URL here](https://avirajwalunj.github.io/order-summary-component/)
+- Solution URL: [github repository](https://github.com/avirajwalunj/order-summary-component)
+- Live Site URL: [github live site](https://avirajwalunj.github.io/order-summary-component/)
 
 ## My process
 - started with design
