@@ -1,0 +1,135 @@
+body{
+  background-color: hsl(225, 100%, 94%);
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body img{
+  width: 100%;
+}
+
+h1{
+  font-size: 28px;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+body p{
+  font-size: 16px;
+  margin: 0 ;
+  width: 65%;
+  font-weight: 300;
+}
+
+h2{
+  font-size: 1em;
+  margin-top: 7px;
+  margin-bottom: 3px;
+  color: hsl(223, 47%, 23%);
+}
+.card-holder{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.card{
+  height: 660px;
+  width: 450px;
+  background-color: hsl(225, 100%, 98%);
+  position: absolute;
+  top: 16%;
+  border-radius: 7%;
+}
+
+.top-image img{
+  border-radius: 7% 7% 0 0 ;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prising{
+  margin-top: 20px;
+  height: 80px;
+  width: 80%;
+  border-radius: 15px;
+  background-color: hsl(225, 100%, 96.5%);
+  display: flex;
+  align-items: center;
+
+
+}
+.prising img{
+  width: 15%;
+  margin-left: 30px;
+}
+
+.annual-plan{
+  margin-left: 20px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.para p{
+  padding-left: 150%;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  text-decoration: underline;
+}
+.para p:hover{
+  cursor: pointer;
+  color: #aca6f2;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family:'Red Hat Display', sans-serif ;
+  color: #e0e8ff;
+  font-size: 16px;
+  background: hsl(245, 75%, 52%);
+  padding: 14px 95px 14px 95px;
+  text-decoration: none;
+  font-weight: 300;
+  margin-top: 30px;
+}
+.btn a{
+  color: #e0e8ff;
+  text-decoration: none;
+  font-weight: 700;
+}
+.btn:hover {
+  cursor: pointer;
+  background: #aca6f2;
+  text-decoration: none;
+}
+
+.cancel{
+  margin-top: 30px;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+.cancel:hover{
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
+}
+
+@media only screen and (max-width:425px)  {
+  .card{
+    max-width: 85%;
+  }
+  body{
+    background-image: url(images/pattern-background-mobile.svg);
+    font-size: 14px;
+  }
+  .para p{
+    padding-left: 40%;
+  }
+}
