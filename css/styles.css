@@ -133,3 +133,8 @@ h2{
     padding-left: 40%;
   }
 }
+.attribution{
+  color: black;
+  position: absolute;
+  bottom: 10%;
+}
